@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl"
-     xml:base="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl"
+     xml:base="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vegerestaurante="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#">
+     xmlns:vegerestaurante="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl"/>
     
 
@@ -22,20 +22,20 @@
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#compra -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#compra -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#compra">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado"/>
-        <rdfs:range rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#compra">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#visitan -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#visitan -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#visitan">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
-        <rdfs:range rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#visitan">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
     </owl:ObjectProperty>
     
 
@@ -51,145 +51,145 @@
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#alimentos -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#alimentos -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#alimentos">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#alimentos">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#correo_electronico -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#correo_electronico -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#correo_electronico">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#correo_electronico">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#descripcion -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#descripcion -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#descripcion">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#descripcion">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#disponibilidad -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#disponibilidad -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#disponibilidad">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#disponibilidad">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#frutas -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#frutas -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#frutas">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Comida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#frutas">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Comida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#imagen -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#imagen -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#imagen">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#imagen">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#ip -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#ip -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#ip">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioNoRegistrado"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#ip">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioNoRegistrado"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#nombre_bebida -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#nombre_bebida -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#nombre_bebida">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#nombre_bebida">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#nombre_comida -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#nombre_comida -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#nombre_comida">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Comida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#nombre_comida">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Comida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#nombre_persona -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#nombre_persona -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#nombre_persona">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#nombre_persona">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#numero_compras -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#numero_compras -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#numero_compras">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#numero_compras">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#numero_visitas -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#numero_visitas -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#numero_visitas">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#numero_visitas">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#precio -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#precio -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#precio">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#precio">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#sabor -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#sabor -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#sabor">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Comida"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#sabor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Comida"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#tiempo_entrega -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#tiempo_entrega -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#tiempo_entrega">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#tiempo_entrega">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#valoracion -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#valoracion -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#valoracion">
-        <rdfs:domain rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#valoracion">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
     </owl:DatatypeProperty>
     
@@ -206,47 +206,47 @@
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida -->
 
-    <owl:Class rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida">
-        <rdfs:subClassOf rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Comida -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Comida -->
 
-    <owl:Class rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Comida">
-        <rdfs:subClassOf rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Comida">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta -->
 
-    <owl:Class rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Oferta"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Oferta"/>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona -->
 
-    <owl:Class rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioNoRegistrado -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioNoRegistrado -->
 
-    <owl:Class rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioNoRegistrado">
-        <rdfs:subClassOf rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
-        <owl:disjointWith rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioNoRegistrado">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado -->
 
-    <owl:Class rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado">
-        <rdfs:subClassOf rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
     </owl:Class>
     
 
@@ -262,55 +262,55 @@
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Alberto -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Alberto -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Alberto">
-        <vegerestaurante:compra rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#ArrozVegeratiano"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Alberto">
+        <vegerestaurante:compra rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#ArrozVegeratiano"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Aldemaro -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Aldemaro -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Aldemaro">
-        <rdf:type rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Persona"/>
-        <vegerestaurante:compra rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Aldemaro">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Persona"/>
+        <vegerestaurante:compra rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#ArrozVegeratiano -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#ArrozVegeratiano -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#ArrozVegeratiano">
-        <rdf:type rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Comida"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#ArrozVegeratiano">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Comida"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#BatidoEspinacaZanahoria -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#BatidoEspinacaZanahoria -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#BatidoEspinacaZanahoria">
-        <rdf:type rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Bebida"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#BatidoEspinacaZanahoria">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Bebida"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Jose -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Jose -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Jose">
-        <rdf:type rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioNoRegistrado"/>
-        <vegerestaurante:compra rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
-        <vegerestaurante:visitan rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Jose">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioNoRegistrado"/>
+        <vegerestaurante:compra rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
+        <vegerestaurante:visitan rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Pepe -->
+    <!-- https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Pepe -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#Pepe">
-        <rdf:type rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#UsuarioRegistrado"/>
-        <vegerestaurante:compra rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
-        <vegerestaurante:visitan rdf:resource="https://github.com/Siralde/VegeRestaurantSemanticWebOWL/blob/master/VegeRestaurante.owl#ArrozVegeratiano"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#Pepe">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#UsuarioRegistrado"/>
+        <vegerestaurante:compra rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#BatidoEspinacaZanahoria"/>
+        <vegerestaurante:visitan rdf:resource="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl#ArrozVegeratiano"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
