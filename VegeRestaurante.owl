@@ -1,322 +1,318 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2"
      xml:base="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2">
-    <Prefix name="" IRI="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Declaration>
-        <Class IRI="#Bebida"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Comida"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Oferta"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Persona"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UsuarioNoRegistrado"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UsuarioRegistrado"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#compra"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#visitan"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#alimentos"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#correo_electronico"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#descripcion"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#disponibilidad"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#frutas"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#imagen"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#ip"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nombre_bebida"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nombre_comida"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nombre_persona"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#numero_compras"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#numero_visitas"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#precio"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#sabor"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#tiempo_entrega"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#valoracion"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Alberto"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Aldemaro"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#ArrozVegeratiano"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BatidoEspinacaZanahoria"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Jose"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pepe"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#Bebida"/>
-        <Class IRI="#Oferta"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Comida"/>
-        <Class IRI="#Oferta"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UsuarioNoRegistrado"/>
-        <Class IRI="#Persona"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UsuarioRegistrado"/>
-        <Class IRI="#Persona"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#UsuarioNoRegistrado"/>
-        <Class IRI="#UsuarioRegistrado"/>
-    </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#Persona"/>
-        <NamedIndividual IRI="#Aldemaro"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#ArrozVegeratiano"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Bebida"/>
-        <NamedIndividual IRI="#BatidoEspinacaZanahoria"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#UsuarioNoRegistrado"/>
-        <NamedIndividual IRI="#Jose"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#UsuarioRegistrado"/>
-        <NamedIndividual IRI="#Pepe"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compra"/>
-        <NamedIndividual IRI="#Alberto"/>
-        <NamedIndividual IRI="#ArrozVegeratiano"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compra"/>
-        <NamedIndividual IRI="#Aldemaro"/>
-        <NamedIndividual IRI="#BatidoEspinacaZanahoria"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compra"/>
-        <NamedIndividual IRI="#Jose"/>
-        <NamedIndividual IRI="#BatidoEspinacaZanahoria"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#visitan"/>
-        <NamedIndividual IRI="#Jose"/>
-        <NamedIndividual IRI="#BatidoEspinacaZanahoria"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compra"/>
-        <NamedIndividual IRI="#Pepe"/>
-        <NamedIndividual IRI="#BatidoEspinacaZanahoria"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#visitan"/>
-        <NamedIndividual IRI="#Pepe"/>
-        <NamedIndividual IRI="#ArrozVegeratiano"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#compra"/>
-        <Class IRI="#UsuarioRegistrado"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#visitan"/>
-        <Class IRI="#Persona"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#compra"/>
-        <Class IRI="#Oferta"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#visitan"/>
-        <Class IRI="#Oferta"/>
-    </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="#alimentos"/>
-        <Class IRI="#Bebida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#correo_electronico"/>
-        <Class IRI="#UsuarioRegistrado"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#descripcion"/>
-        <Class IRI="#Bebida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#disponibilidad"/>
-        <Class IRI="#Oferta"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#frutas"/>
-        <Class IRI="#Comida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#imagen"/>
-        <Class IRI="#Bebida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#ip"/>
-        <Class IRI="#UsuarioNoRegistrado"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nombre_bebida"/>
-        <Class IRI="#Bebida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nombre_comida"/>
-        <Class IRI="#Comida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nombre_persona"/>
-        <Class IRI="#Persona"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#numero_compras"/>
-        <Class IRI="#UsuarioRegistrado"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#numero_visitas"/>
-        <Class IRI="#Persona"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#precio"/>
-        <Class IRI="#Oferta"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#sabor"/>
-        <Class IRI="#Comida"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#tiempo_entrega"/>
-        <Class IRI="#Oferta"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#valoracion"/>
-        <Class IRI="#Oferta"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#alimentos"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#correo_electronico"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#descripcion"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#disponibilidad"/>
-        <Datatype abbreviatedIRI="xsd:boolean"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#frutas"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#imagen"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#ip"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nombre_bebida"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nombre_comida"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nombre_persona"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#numero_compras"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#numero_visitas"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#precio"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#sabor"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#tiempo_entrega"/>
-        <Datatype abbreviatedIRI="xsd:unsignedInt"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#valoracion"/>
-        <Datatype abbreviatedIRI="xsd:unsignedInt"/>
-    </DataPropertyRange>
-</Ontology>
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Siralde/VegeRestaurantSemanticWebOWL/master/VegeRestaurante.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#compra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#compra">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#visitan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#visitan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#alimentos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#alimentos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#correo_electronico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#correo_electronico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#descripcion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#descripcion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#disponibilidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#disponibilidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#frutas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#frutas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Comida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#imagen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#imagen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#ip -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#ip">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioNoRegistrado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#nombre_bebida -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#nombre_bebida">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#nombre_comida -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#nombre_comida">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Comida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#nombre_persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#nombre_persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#numero_compras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#numero_compras">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#numero_visitas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#numero_visitas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#precio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#precio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#sabor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#sabor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Comida"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#tiempo_entrega -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#tiempo_entrega">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#valoracion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#valoracion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Comida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Comida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Oferta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioNoRegistrado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioNoRegistrado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Alberto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Alberto">
+        <untitled-ontology-2:compra rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#ArrozVegeratiano"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Aldemaro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Aldemaro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Persona"/>
+        <untitled-ontology-2:compra rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#BatidoEspinacaZanahoria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#ArrozVegeratiano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#ArrozVegeratiano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Comida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#BatidoEspinacaZanahoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#BatidoEspinacaZanahoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Bebida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Jose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Jose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioNoRegistrado"/>
+        <untitled-ontology-2:compra rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#BatidoEspinacaZanahoria"/>
+        <untitled-ontology-2:visitan rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#BatidoEspinacaZanahoria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Pepe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#Pepe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#UsuarioRegistrado"/>
+        <untitled-ontology-2:compra rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#BatidoEspinacaZanahoria"/>
+        <untitled-ontology-2:visitan rdf:resource="http://www.semanticweb.org/aldemarogonzalez/ontologies/2020/10/untitled-ontology-2#ArrozVegeratiano"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
 
 
 
